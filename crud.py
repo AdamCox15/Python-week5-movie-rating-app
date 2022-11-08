@@ -1,0 +1,13 @@
+from model import db, User, Movie, Rating, connect_to_db
+
+
+def create_user(email, password):
+    
+    user = User(email=email, password=password)
+
+    return user
+
+
+if __name__=='__main__':
+    from server import app
+    connect_to_db(app)
