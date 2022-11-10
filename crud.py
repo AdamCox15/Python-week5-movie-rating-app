@@ -33,6 +33,10 @@ def create_rating(user, movie, score):
 def get_user_by_email(email):
     return User.query.filter(User.email == email).first()
 
+def update_rating(rating_id, new_score):
+    rating = Rating.query.get(rating_id)
+    rating.score = new_score
+
 if __name__=='__main__':
     from server import app
     connect_to_db(app)
