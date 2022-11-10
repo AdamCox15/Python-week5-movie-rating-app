@@ -36,7 +36,9 @@ def all_users():
     users = crud.get_users()
     return render_template("all_users.html", users=users)
 
-
+@app.route('/users', methods=["POST"])
+def register_user():
+    pass
 
 if __name__ == "__main__":
     connect_to_db(app)
