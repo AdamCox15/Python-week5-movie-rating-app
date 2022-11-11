@@ -2,21 +2,36 @@ body{
     background-color: aqua;
 }
 h1{
-    font-size: 3rem;
+    font-size: 2.7rem;
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
 }
 h2{
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 10px;
 }
 form{
     text-align: center;
+}
+#headDiv{
+    background-color: darkorange;
+    padding: 30px;
+    box-shadow: 10px 10px 10px red;
+    border: 5px solid orange;
+    width: 90%;
+    margin: auto;
 }
 #homeDiv{
     align-items: center;
     border: 5px solid orange;
     height: 400px;
-    width: 400px;
+    width: 450px;
     margin: auto;
+    margin-top: 30px;
+    background-color:sandybrown;
+    box-shadow: 10px 10px 10px red;
+    padding-top: 40px;
 }
 #homeUl{
     display: flex;
@@ -26,4 +41,30 @@ form{
 }
 #homeLi{
     margin: 20px;
+    font-size: 1rem;
+}
+#font1{
+    font-family: 'Press Start 2P', cursive;
+}
+p{
+    font-family: 'Press Start 2P', cursive;
+}
+li{
+    font-family: 'Press Start 2P', cursive;
+    margin: 5px;
+}
+input{
+    font-family: 'Press Start 2P', cursive;
+}
+img{
+    height: 400px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+#indFont{
+    line-height:1.5;
+    text-align: center;
 }

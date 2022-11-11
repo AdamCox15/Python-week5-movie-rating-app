@@ -2,7 +2,7 @@
 endblock %} {% block body %}
 <h1>{{ movie.title }}</h1>
 
-<p>{{ movie.overview }}</p>
+<p id="indFont">{{ movie.overview }}</p>
 {% if session.get('user_email') %}
 <h2>Rate this movie</h2>
 <form action="/movies/{{ movie.movie_id }}/ratings" method="POST">
